@@ -1,10 +1,18 @@
-import { useState } from 'react'
 import { Post } from './Post'
 
 export function App() {
-  const [count, setCount] = useState(0)
 
   return (
-   <Post />
+    <div>
+      <Post
+        author="Allan Moreto"
+        content="lorLorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit eum officia unde, voluptate non corrupti cumque? Sapiente, quasi ipsa quis ut praesentium ipsam molestiae dolor vitae. Molestiae, incidunt consequatur!em"
+      />
+      <Post
+        author="SIngletary"
+        content="MOrem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit eum officia unde, voluptate non corrupti cumque? Sapiente, quasi ipsa quis ut praesentium ipsam molestiae dolor vitae. Molestiae, incidunt consequatur!em"
+      />
+    </div>
+
   )
 }
