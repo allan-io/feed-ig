@@ -7,6 +7,8 @@ import { Sidebar } from './components/Sidebar'
 
 export function App() {
 
+  console.log('hi world')
+
   return (
     <div>
       <Header />
